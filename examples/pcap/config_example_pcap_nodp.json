@@ -1,6 +1,6 @@
 {
     "global_config": {
-        "original_data_file": "../../traces/caida-small/raw.pcap",
+        "original_data_file": "/data0/mxy/linchungang/NetShare/traces/caida-small/raw.pcap",
         "overwrite": true,
         "dataset_type": "pcap",
         "n_chunks": 1,
