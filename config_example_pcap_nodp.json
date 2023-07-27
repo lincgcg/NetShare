@@ -1,9 +1,9 @@
 {
     "global_config": {
-        "original_data_file": "/data0/mxy/linchungang/NetShare/traces/NetGPT/test/raw.pcap",
+        "original_data_file": "/data0/mxy/linchungang/NetShare/output/compare/netshare/datasets/youtube1_00000_20150401220231.pcap",
         "overwrite": true,
         "dataset_type": "pcap",
-        "n_chunks": 4,
+        "n_chunks": 1,
         "dp": false
     },
     "default": "single_event_per_row.json",
@@ -108,7 +108,7 @@
                 10
             ],
             "sample_len_expand": true,
-            "epochs": 40,
+            "epochs": 400,
             "extra_checkpoint_freq": 1,
             "epoch_checkpoint_freq": 5
         }
