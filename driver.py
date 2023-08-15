@@ -14,9 +14,9 @@ if __name__ == '__main__':
     # Please set the `worker_folder` as *absolute path*
     # if you are using Ray with multi-machine setup
     # since Ray has bugs when dealing with relative paths.
-    generator.train(work_folder='/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/output/results/2')
-    generator.generate(work_folder='/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/output/results/2')
-    generator.visualize(work_folder='/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/output/results/2')
+    generator.train(work_folder='/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/output/results/3')
+    generator.generate(work_folder='/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/output/results/3')
+    generator.visualize(work_folder='/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/output/results/3')
     
 
     ray.shutdown()
