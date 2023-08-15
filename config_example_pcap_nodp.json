@@ -1,6 +1,6 @@
 {
     "global_config": {
-        "original_data_file": "/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/datasets/3/raw.pcap",
+        "original_data_file": "/data0/mxy/linchungang/NetShare/output/Same_Real/netshare/datasets/4/raw.pcap",
         "overwrite": true,
         "dataset_type": "pcap",
         "n_chunks": 1,
